@@ -1,0 +1,66 @@
+/* * {
+    border: red solid;
+} */
+
+body {
+    background-color: #676666;
+}
+
+h1 {
+    color: #91a7ba;
+}
+
+.main-container {
+    display: flex;
+    height: 925px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    background-image: url('./Pics/concert-image.jpg');
+    opacity: .7;
+}
+
+.pad-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 660px;
+    height: 450px;
+    border: 1px black solid;
+    background-color: #2b2a2a;
+    padding: 50px 0;
+    box-shadow: 15px 10px 10px #440444;
+}
+
+
+.main-pads-div {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 30px;
+    width: 300px;
+
+}
+
+#spacebar {
+    width: 300px;
+}
+
+.pad {
+    color: #91a7ba;
+    width: 100px;
+    text-align: center;
+    padding: 40px 0;
+    transition: all .07s;
+    border: solid black 3px;
+    box-shadow: 10px 5px 5px #440444;
+}
+
+
+.playing {
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 0 0 10px yellow;
+}

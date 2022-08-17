@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CMAP Drum Machine</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Welcome To The CMAP Drum Machine</h1>
+
+        <div class="pad-board">
+            <div class="main-pads-div">
+                <div data-key="KeyB" class="pad">Snare B</div>
+                <div data-key="KeyN" class="pad">Hat N</div>
+                <div data-key="KeyG" class="pad">Open Hat G</div>
+                <div data-key="KeyJ" class="pad">Ride J</div>
+            </div>
+            <div class="spacebar-div">
+                <div data-key="Space" class="pad" id="spacebar">Kick Space</div>
+            </div>
+        </div>
+
+    </div>
+
+    <audio data-key="Space" src="sounds/kick.wav"></audio>
+    <audio data-key="KeyB" src="sounds/snare.wav"></audio>
+    <audio data-key="KeyN" src="sounds/hihat.wav"></audio>
+    <audio data-key="KeyG" src="sounds/openhat.wav"></audio>
+    <audio data-key="KeyJ" src="sounds/ride.wav"></audio>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
