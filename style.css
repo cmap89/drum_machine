@@ -4,6 +4,7 @@
 
 body {
     background-color: #676666;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -17,7 +18,7 @@ h1 {
     align-items: center;
     background-color: #000;
     background-image: url('./Pics/concert-image.jpg');
-    opacity: .7;
+    border-radius: 4px;
 }
 
 .pad-board {
@@ -28,9 +29,11 @@ h1 {
     width: 660px;
     height: 450px;
     border: 1px black solid;
+    border-radius: 10px;
     background-color: #2b2a2a;
     padding: 50px 0;
     box-shadow: 15px 10px 10px #440444;
+    box-shadow: inset .5px .5px 25px white;
 }
 
 
@@ -55,7 +58,8 @@ h1 {
     padding: 40px 0;
     transition: all .07s;
     border: solid black 3px;
-    box-shadow: 10px 5px 5px #440444;
+    box-shadow: inset .5px .5px 5px white;
+    border-radius: 10px;
 }
 
 
