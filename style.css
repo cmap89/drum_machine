@@ -13,7 +13,8 @@ h1 {
 
 .main-container {
     display: flex;
-    height: 925px;
+    height: 100vh;
+    width: 150vh;
     flex-direction: column;
     align-items: center;
     background-color: #000;
