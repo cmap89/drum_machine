@@ -10,9 +10,10 @@
 </head>
 
 <body>
-    <div class="main-container">
-        <h1>Welcome To The CMAP Drum Machine</h1>
-
+    <section class="main-container" id="main-container">
+        <nav class="banner">
+            <h1>Welcome To The CMAP Drum Machine</h1>
+        </nav>
         <div class="pad-board">
             <div class="main-pads-div">
                 <div data-key="KeyB" class="pad">Snare B</div>
@@ -24,8 +25,12 @@
                 <div data-key="Space" class="pad" id="spacebar">Kick Space</div>
             </div>
         </div>
-
-    </div>
+        <footer id="footer">
+            <div class="copy">
+                &copy; CMAP Music Entertainment
+            </div>
+        </footer>
+    </section>
 
     <audio data-key="Space" src="sounds/kick.wav"></audio>
     <audio data-key="KeyB" src="sounds/snare.wav"></audio>
